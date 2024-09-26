@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\study\\study\\7 семестр\\Проектный практикум\\praktikum\\project\\project.csproj": {}
+    "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj": {}
   },
   "projects": {
-    "E:\\study\\study\\7 семестр\\Проектный практикум\\praktikum\\project\\project.csproj": {
+    "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\study\\study\\7 семестр\\Проектный практикум\\praktikum\\project\\project.csproj",
+        "projectUniqueName": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj",
         "projectName": "project",
-        "projectPath": "E:\\study\\study\\7 семестр\\Проектный практикум\\praktikum\\project\\project.csproj",
+        "projectPath": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\study\\study\\7 семестр\\Проектный практикум\\praktikum\\project\\obj\\",
+        "outputPath": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,28 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.12, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
