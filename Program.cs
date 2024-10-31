@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
@@ -7,7 +8,6 @@ using static project.ServiceExtensions.ServiceExtensions;
 var builder = WebApplication.CreateBuilder(args);
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
-// Add services to the container.
 
 try
 {
@@ -29,6 +29,8 @@ try
         app.UseSwaggerUI();
     }
 
+    app.UseMiddleware<ExceptionHandlerMiddleware>();    
+    
     app.UseAuthorization();
 
     app.MapControllers();

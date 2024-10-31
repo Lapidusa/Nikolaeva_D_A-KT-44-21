@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\filters\\studentfilters\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:filters\\studentfilters\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\interfaces\\studentsinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +15,44 @@
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:filters\\studentfilters\\studentfiofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\filters\\studentfilters\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:filters\\studentfilters\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\models\\objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:models\\objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\objectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\objectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\models\\objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:models\\objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -78,41 +82,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupConfiguration.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\GroupConfiguration.cs",
-              "RelativeDocumentMoniker": "Database\\Configuration\\GroupConfiguration.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\GroupConfiguration.cs",
-              "RelativeToolTip": "Database\\Configuration\\GroupConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:07:36.471Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "Controllers\\StudentController.cs*",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEYAAAANAAAAAAAAAA==",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T12:43:37.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "RelativeToolTip": "Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:10:50.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "ServiceExtensions\\ServiceExtensions.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "ServiceExtensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:07:45.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentGroupFilter.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "RelativeToolTip": "Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:21:51.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentFIOFilter.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\StudentFIOFilter.cs",
               "RelativeDocumentMoniker": "Filters\\StudentFilters\\StudentFIOFilter.cs",
@@ -125,59 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentDbContext.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\StudentDbContext.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbContext.cs",
-              "RelativeToolTip": "Database\\StudentDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:25:47.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentGroupFilter.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\StudentGroupFilter.cs",
-              "RelativeDocumentMoniker": "Filters\\StudentFilters\\StudentGroupFilter.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\StudentGroupFilter.cs",
-              "RelativeToolTip": "Filters\\StudentFilters\\StudentGroupFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:21:51.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ColumnType.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Helpers\\ColumnType.cs",
-              "RelativeDocumentMoniker": "Database\\Helpers\\ColumnType.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Helpers\\ColumnType.cs",
-              "RelativeToolTip": "Database\\Helpers\\ColumnType.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T12:28:23.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\StudentsInterfaces\\IStudentService.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
-              "RelativeToolTip": "Interfaces\\StudentsInterfaces\\IStudentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:10:50.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UpdateStudent.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Filters\\StudentFilters\\UpdateStudent.cs",
               "RelativeDocumentMoniker": "Filters\\StudentFilters\\UpdateStudent.cs",
@@ -190,33 +168,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T14:01:57.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\ServiceExtensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "ServiceExtensions\\ServiceExtensions.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\ServiceExtensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "ServiceExtensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\StudentDbContext.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbContext.cs",
+              "RelativeToolTip": "Database\\StudentDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwA4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:07:45.886Z",
+              "WhenOpened": "2024-10-10T14:25:47.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Objects.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Objects.cs",
+              "RelativeDocumentMoniker": "Models\\Objects.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Objects.cs",
+              "RelativeToolTip": "Models\\Objects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:37:54.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ColumnType.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Helpers\\ColumnType.cs",
+              "RelativeDocumentMoniker": "Database\\Helpers\\ColumnType.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Helpers\\ColumnType.cs",
+              "RelativeToolTip": "Database\\Helpers\\ColumnType.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T12:28:23.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "ObjectConfiguration.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\ObjectConfiguration.cs",
+              "RelativeDocumentMoniker": "Database\\Configuration\\ObjectConfiguration.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\ObjectConfiguration.cs",
+              "RelativeToolTip": "Database\\Configuration\\ObjectConfiguration.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:16:26.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Group.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Group.cs",
               "RelativeDocumentMoniker": "Models\\Group.cs",
@@ -224,11 +241,25 @@
               "RelativeToolTip": "Models\\Group.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T12:31:44.507Z"
+              "WhenOpened": "2024-09-19T12:31:44.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "GroupConfiguration.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\GroupConfiguration.cs",
+              "RelativeDocumentMoniker": "Database\\Configuration\\GroupConfiguration.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\GroupConfiguration.cs",
+              "RelativeToolTip": "Database\\Configuration\\GroupConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:07:36.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -240,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "StudentConfiguration.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Configuration\\StudentConfiguration.cs",
               "RelativeDocumentMoniker": "Database\\Configuration\\StudentConfiguration.cs",
@@ -252,19 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Objects.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Objects.cs",
-              "RelativeDocumentMoniker": "Models\\Objects.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Objects.cs",
-              "RelativeToolTip": "Models\\Objects.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:37:54.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -276,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "project.http",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.http",
               "RelativeDocumentMoniker": "project.http",
@@ -288,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "project.csproj",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj",
               "RelativeDocumentMoniker": "project.csproj",
