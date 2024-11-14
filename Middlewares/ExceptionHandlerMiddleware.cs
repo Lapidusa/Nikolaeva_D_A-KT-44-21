@@ -1,48 +1,49 @@
 using System.Net;
 namespace project.Middlewares;
 
-public class ExceptionHandlerMiddleware
-{
-    private readonly ILogger<ExceptionHandlerMiddleware> _logger;
-    private readonly RequestDelegate _next;
-
-    public ExceptionHandlerMiddleware(RequestDelegate next, ILogger<ExceptionHandlerMiddleware> logger)
+    public class ExceptionHandlerMiddleware
     {
-        _next = next;
-        _logger = logger;
-    }
+        private readonly ILogger<ExceptionHandlerMiddleware> _logger;
+        private readonly RequestDelegate _next;
 
-    public async Task Invoke(HttpContext context)
-    {
-        try
+        public ExceptionHandlerMiddleware(RequestDelegate next, ILogger<ExceptionHandlerMiddleware> logger)
         {
-            await _next(context);
+            _next = next;
+            _logger = logger;
         }
-        catch (Exception exception)
+
+        public async Task Invoke(HttpContext context)
         {
-            _logger.LogError("Exception", exception);
-
-            var httpResponse = context.Response;
-            httpResponse.ContentType = "application/json";
-
-            var responseModel = new ResponseModel<object>
+            try
             {
-                Succeeded = false,
-                Message = exception.Message
-            };
-
-            switch (exception)
-            {
-                default:
-                    httpResponse.StatusCode = (int)HttpStatusCode.InternalServerError;
-                    responseModel.Errors = new List<string> { exception.InnerException?.Message };
-                    break;
+                await _next(context);
             }
+            catch (Exception exception)
+            {
+                _logger.LogError("Exception", exception);
 
-            await httpResponse.WriteAsJsonAsync(responseModel);
+                var httpResponse = context.Response;
+                httpResponse.ContentType = "application/json";
+
+                var responseModel = new ResponseModel<object>
+                {
+                    Succeeded = false,
+                    Message = exception.Message
+                };
+
+                switch (exception)
+                {
+                    default:
+                        httpResponse.StatusCode = (int)HttpStatusCode.InternalServerError;
+                        responseModel.Errors = new List<string> { exception.InnerException?.Message };
+                        break;
+                }
+
+                await httpResponse.WriteAsJsonAsync(responseModel);
+            }
         }
     }
-    
+
     public class ResponseModel<T>
     {
         public bool Succeeded { get; set; }
@@ -67,4 +68,3 @@ public class ExceptionHandlerMiddleware
             Message = message;
         }
     }
-}
