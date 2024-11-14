@@ -9,9 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d0bba0c-a96b-4514-a973-f29241b24781" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Objects.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -52,9 +55,9 @@
     </option>
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2oCXYXyespoommwrbb7z5VIv1wy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,6 +67,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.project: IIS Express.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,6 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730374579563</updated>
       <workItem from="1730374580631" duration="3288000" />
+      <workItem from="1731597337418" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="add other service">
       <option name="closed" value="true" />
