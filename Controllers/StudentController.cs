@@ -71,5 +71,17 @@ namespace project.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("GetStudentById/{id}")]
+        public async Task<IActionResult> GetStudentByIdAsync(int id, CancellationToken cancellationToken = default)
+        {
+            var student = await _studentService.GetStudentByIdAsync(id, cancellationToken);
+            if (student == null)
+            {
+                return NotFound("Student not found.");
+            }
+
+            return Ok(student);
+        }
     }
 }

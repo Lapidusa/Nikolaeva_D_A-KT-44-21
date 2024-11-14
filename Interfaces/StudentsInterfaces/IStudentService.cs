@@ -9,10 +9,10 @@ namespace project.Interfaces.StudentsInterfaces
     {
         Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken);
         Task<Student[]> GetStudentsByFIOAsync(StudentFIOFilter filter, CancellationToken cancellationToken);
-
         Task<Student> AddStudentAsync(AddStudentRequest request, CancellationToken cancellationToken);
         Task<Student> UpdateStudentAsync(int id, AddStudentRequest request, CancellationToken cancellationToken);
         Task<bool> DeleteStudentAsync(int id, CancellationToken cancellationToken);
+        Task<Student> GetStudentByIdAsync(int id, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -85,6 +85,10 @@ namespace project.Interfaces.StudentsInterfaces
             _dbContext.Students.Remove(student);
             await _dbContext.SaveChangesAsync(cancellationToken);
             return true;
+        }
+        public async Task<Student> GetStudentByIdAsync(int id, CancellationToken cancellationToken)
+        {
+            return await _dbContext.Students.FindAsync(new object[] { id }, cancellationToken);
         }
     }
 }
