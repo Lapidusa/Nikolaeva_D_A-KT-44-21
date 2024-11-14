@@ -2,7 +2,6 @@
 using project.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using project.Database.Helpers;
 
 namespace project.Database.Configurations
 {

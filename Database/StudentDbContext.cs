@@ -6,13 +6,15 @@ namespace project.Database
 {
     public class StudentDbContext : DbContext
     {
-        DbSet<Student> Students { get; set; }
-        DbSet<Group> Groups { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<Objects> Objects { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new StudentConfiguration());
             modelBuilder.ApplyConfiguration(new GroupConfiguration());
+            modelBuilder.ApplyConfiguration(new ObjectConfiguration());
         }
 
         public StudentDbContext(DbContextOptions<StudentDbContext> options) : base(options)

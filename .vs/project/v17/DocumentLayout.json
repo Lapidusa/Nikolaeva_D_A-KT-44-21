@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -23,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\studentdbconcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\studentdbconcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\configuration\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:database\\configuration\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD7FB35-E2E2-4D11-8B0D-6F764E4A2268}|project.csproj|e:\\study\\study\\7sem\\proektny_practicum\\praktikum\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,8 +61,29 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAywEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:43:05.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -86,12 +103,24 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAABMAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T13:17:29.29Z",
+              "WhenOpened": "2024-09-19T13:17:29.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:01:57.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "project.http",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.http",
               "RelativeDocumentMoniker": "project.http",
@@ -99,8 +128,7 @@
               "RelativeToolTip": "project.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-19T13:09:08.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T13:09:08.123Z"
             },
             {
               "$type": "Document",
@@ -116,32 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentDbConContext.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbConContext.cs",
-              "RelativeDocumentMoniker": "Database\\StudentDbConContext.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\StudentDbConContext.cs",
-              "RelativeToolTip": "Database\\StudentDbConContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T07:49:16.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:01:57.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -165,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Group.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Group.cs",
               "RelativeDocumentMoniker": "Models\\Group.cs",
@@ -177,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -190,18 +193,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:02:00.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ColumnType.cs",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\Database\\Helpers\\ColumnType.cs",
               "RelativeDocumentMoniker": "Database\\Helpers\\ColumnType.cs",
@@ -213,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "project.csproj",
               "DocumentMoniker": "E:\\study\\study\\7sem\\proektny_practicum\\praktikum\\project.csproj",
               "RelativeDocumentMoniker": "project.csproj",
