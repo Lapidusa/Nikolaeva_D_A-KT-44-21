@@ -11,8 +11,8 @@ using project.Database;
 namespace project.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20240926130705_object")]
-    partial class @object
+    [Migration("20241122123945_151")]
+    partial class _151
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,41 @@ namespace project.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("project.Models.Curriculum", b =>
+                {
+                    b.Property<int>("CurriculumId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("curriculum_id")
+                        .HasComment("Идентификатор учебного плана");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CurriculumId"));
+
+                    b.Property<int>("GroupId")
+                        .HasColumnType("int")
+                        .HasColumnName("f_group_id")
+                        .HasComment("Идентификатор группы");
+
+                    b.Property<int>("Hours")
+                        .HasColumnType("int")
+                        .HasColumnName("hours")
+                        .HasComment("Количество часов для учебного плана");
+
+                    b.Property<int>("ObjectId")
+                        .HasColumnType("int")
+                        .HasColumnName("f_object_id")
+                        .HasComment("Идентификатор предмета");
+
+                    b.HasKey("CurriculumId")
+                        .HasName("pk_cd_curriculum_curriculum_id");
+
+                    b.HasIndex("GroupId");
+
+                    b.HasIndex("ObjectId");
+
+                    b.ToTable("cd_curriculum", (string)null);
+                });
 
             modelBuilder.Entity("project.Models.Group", b =>
                 {
@@ -37,7 +72,7 @@ namespace project.Migrations
                     b.Property<string>("GroupName")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType(" varchar ")
+                        .HasColumnType("varchar")
                         .HasColumnName("c_group_name")
                         .HasComment("Название группы");
 
@@ -57,22 +92,15 @@ namespace project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ObjectId"));
 
-                    b.Property<int>("GroupId")
-                        .HasColumnType(" int4 ")
-                        .HasColumnName("f_group_id")
-                        .HasComment("Идентификатор группы");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType(" varchar ")
+                        .HasColumnType("varchar")
                         .HasColumnName("c_object_name")
                         .HasComment("Название предмета");
 
                     b.HasKey("ObjectId")
                         .HasName("pk_cd_object_object_id");
-
-                    b.HasIndex(new[] { "GroupId" }, "idx_cd_object_fk_f_group_id");
 
                     b.ToTable("cd_object", (string)null);
                 });
@@ -121,16 +149,23 @@ namespace project.Migrations
                     b.ToTable("cd_student", (string)null);
                 });
 
-            modelBuilder.Entity("project.Models.Objects", b =>
+            modelBuilder.Entity("project.Models.Curriculum", b =>
                 {
                     b.HasOne("project.Models.Group", "Group")
                         .WithMany()
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("fk_f_group_id");
+                        .IsRequired();
+
+                    b.HasOne("project.Models.Objects", "Objects")
+                        .WithMany()
+                        .HasForeignKey("ObjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Group");
+
+                    b.Navigation("Objects");
                 });
 
             modelBuilder.Entity("project.Models.Student", b =>

@@ -13,6 +13,10 @@ namespace project.Interfaces.StudentsInterfaces
         Task<Student> UpdateStudentAsync(int id, AddStudentRequest request, CancellationToken cancellationToken);
         Task<bool> DeleteStudentAsync(int id, CancellationToken cancellationToken);
         Task<Student> GetStudentByIdAsync(int id, CancellationToken cancellationToken);
+        Task<Curriculum[]> GetObjectsByGroupAsync(ObjectsByGroupFilter filter, CancellationToken cancellationToken);
+        Task<Curriculum> AddCurriculumAsync(AddCurriculumRequest request, CancellationToken cancellationToken);
+        Task<Curriculum> UpdateCurriculumAsync(int curriculumId, AddCurriculumRequest request, CancellationToken cancellationToken);
+        Task<bool> DeleteCurriculumAsync(int curriculumId, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -86,9 +90,95 @@ namespace project.Interfaces.StudentsInterfaces
             await _dbContext.SaveChangesAsync(cancellationToken);
             return true;
         }
+        
         public async Task<Student> GetStudentByIdAsync(int id, CancellationToken cancellationToken)
         {
             return await _dbContext.Students.FindAsync(new object[] { id }, cancellationToken);
+        }
+        
+        public async Task<Curriculum[]> GetObjectsByGroupAsync(ObjectsByGroupFilter filter, CancellationToken cancellationToken)
+        {
+            return await _dbContext.Curriculums
+                .Include(x=>x.Group)
+                .Include(x=>x.Objects)
+                .Where(c => c.GroupId == filter.GroupId)
+                .ToArrayAsync(cancellationToken);
+        }
+        
+        public async Task<Curriculum> AddCurriculumAsync(AddCurriculumRequest request, CancellationToken cancellationToken)
+        {
+            var group = await _dbContext.Groups.FindAsync(new object[] { request.GroupId }, cancellationToken);
+            bool groupExists = group != null;
+            
+            var obj = await _dbContext.Objects.FindAsync(new object[] { request.ObjectId }, cancellationToken);
+            bool objectExists = obj != null;
+            
+            if (!groupExists && !objectExists)
+            {
+                throw new Exception("Group and Object do not exist.");
+            }
+            else if (!groupExists)
+            {
+                throw new Exception($"Group with ID {request.GroupId} does not exist.");
+            }
+            else if (!objectExists)
+            {
+                throw new Exception($"Object with ID {request.ObjectId} does not exist.");
+            }
+            
+            var curriculum = new Curriculum
+            {
+                GroupId = request.GroupId,
+                ObjectId = request.ObjectId,
+                Hours = request.Hours
+            };
+
+            await _dbContext.Curriculums.AddAsync(curriculum, cancellationToken);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+
+            return curriculum;
+        }
+        
+        public async Task<Curriculum> UpdateCurriculumAsync(int curriculumId, AddCurriculumRequest request, CancellationToken cancellationToken)
+        {
+            var curriculum = await _dbContext.Curriculums.FirstOrDefaultAsync(x=>x.CurriculumId==curriculumId, cancellationToken);
+            if (curriculum == null)
+            {
+                throw new Exception($"Curriculum with ID {curriculumId} does not exist.");
+            }
+            
+            var group = await _dbContext.Groups.FirstOrDefaultAsync(x=>x.GroupId==request.GroupId, cancellationToken);
+            if (group == null)
+            {
+                throw new Exception($"Group with ID {request.GroupId} does not exist.");
+            }
+
+            var obj = await _dbContext.Objects.FirstOrDefaultAsync(x=>x.ObjectId==request.ObjectId, cancellationToken);
+            if (obj == null)
+            {
+                throw new Exception($"Object with ID {request.ObjectId} does not exist.");
+            }
+            
+            curriculum.GroupId = request.GroupId;
+            curriculum.ObjectId = request.ObjectId;
+            curriculum.Hours = request.Hours;
+
+            await _dbContext.SaveChangesAsync(cancellationToken);
+
+            return curriculum;
+        }
+        
+        public async Task<bool> DeleteCurriculumAsync(int id, CancellationToken cancellationToken)
+        {
+            var curriculum = await _dbContext.Curriculums.FirstOrDefaultAsync(x=>x.CurriculumId==id, cancellationToken);
+            if (curriculum == null)
+            {
+                return false;
+            }
+
+            _dbContext.Curriculums.Remove(curriculum);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return true;
         }
     }
 }

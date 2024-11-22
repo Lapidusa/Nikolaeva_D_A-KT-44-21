@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace project.Migrations
 {
     /// <inheritdoc />
-    public partial class @object : Migration
+    public partial class _151 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,7 @@ namespace project.Migrations
                 {
                     group_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор записи группы")
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    c_group_name = table.Column<string>(type: " varchar ", maxLength: 100, nullable: false, comment: "Название группы")
+                    c_group_name = table.Column<string>(type: "varchar", maxLength: 100, nullable: false, comment: "Название группы")
                 },
                 constraints: table =>
                 {
@@ -30,18 +30,11 @@ namespace project.Migrations
                 {
                     object_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор записи предмета")
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    c_object_name = table.Column<string>(type: " varchar ", maxLength: 100, nullable: false, comment: "Название предмета"),
-                    f_group_id = table.Column<int>(type: " int4 ", nullable: false, comment: "Идентификатор группы")
+                    c_object_name = table.Column<string>(type: "varchar", maxLength: 100, nullable: false, comment: "Название предмета")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("pk_cd_object_object_id", x => x.object_id);
-                    table.ForeignKey(
-                        name: "fk_f_group_id",
-                        column: x => x.f_group_id,
-                        principalTable: "cd_group",
-                        principalColumn: "group_id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -66,10 +59,42 @@ namespace project.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "cd_curriculum",
+                columns: table => new
+                {
+                    curriculum_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор учебного плана")
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    f_group_id = table.Column<int>(type: "int", nullable: false, comment: "Идентификатор группы"),
+                    f_object_id = table.Column<int>(type: "int", nullable: false, comment: "Идентификатор предмета"),
+                    hours = table.Column<int>(type: "int", nullable: false, comment: "Количество часов для учебного плана")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_cd_curriculum_curriculum_id", x => x.curriculum_id);
+                    table.ForeignKey(
+                        name: "FK_cd_curriculum_cd_group_f_group_id",
+                        column: x => x.f_group_id,
+                        principalTable: "cd_group",
+                        principalColumn: "group_id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_cd_curriculum_cd_object_f_object_id",
+                        column: x => x.f_object_id,
+                        principalTable: "cd_object",
+                        principalColumn: "object_id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
-                name: "idx_cd_object_fk_f_group_id",
-                table: "cd_object",
+                name: "IX_cd_curriculum_f_group_id",
+                table: "cd_curriculum",
                 column: "f_group_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cd_curriculum_f_object_id",
+                table: "cd_curriculum",
+                column: "f_object_id");
 
             migrationBuilder.CreateIndex(
                 name: "idx_cd_student_fk_f_group_id",
@@ -81,10 +106,13 @@ namespace project.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "cd_object");
+                name: "cd_curriculum");
 
             migrationBuilder.DropTable(
                 name: "cd_student");
+
+            migrationBuilder.DropTable(
+                name: "cd_object");
 
             migrationBuilder.DropTable(
                 name: "cd_group");

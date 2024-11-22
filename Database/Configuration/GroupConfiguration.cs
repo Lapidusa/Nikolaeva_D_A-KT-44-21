@@ -16,16 +16,15 @@ namespace project.Database.Configurations
                 .HasName($"pk_{TableName}_group_id");
 
             builder.Property(p => p.GroupId)
-                    .ValueGeneratedOnAdd();
-
-            builder.Property(p => p.GroupId)
+                .ValueGeneratedOnAdd()
                 .HasColumnName("group_id")
                 .HasComment("Идентификатор записи группы");
 
             builder.Property(p => p.GroupName)
                 .IsRequired()
                 .HasColumnName("c_group_name")
-                .HasColumnType(ColumnType.String).HasMaxLength(100)
+                .HasColumnType("varchar")
+                .HasMaxLength(100)
                 .HasComment("Название группы");
 
             builder.ToTable(TableName);

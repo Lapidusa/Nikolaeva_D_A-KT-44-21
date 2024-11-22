@@ -18,21 +18,24 @@ namespace project.Controllers
         }
 
         [HttpPost("GetStudentsByGroup")]
-        public async Task<IActionResult> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
+        public async Task<IActionResult> GetStudentsByGroupAsync(StudentGroupFilter filter,
+            CancellationToken cancellationToken = default)
         {
             var students = await _studentService.GetStudentsByGroupAsync(filter, cancellationToken);
             return Ok(students);
         }
 
         [HttpPost("GetStudentsByFIO")]
-        public async Task<IActionResult> GetStudentsByFIOAsync(StudentFIOFilter filter, CancellationToken cancellationToken = default)
+        public async Task<IActionResult> GetStudentsByFIOAsync(StudentFIOFilter filter,
+            CancellationToken cancellationToken = default)
         {
             var students = await _studentService.GetStudentsByFIOAsync(filter, cancellationToken);
             return Ok(students);
         }
 
         [HttpPost("AddStudent")]
-        public async Task<IActionResult> AddStudentAsync([FromBody] AddStudentRequest request, CancellationToken cancellationToken = default)
+        public async Task<IActionResult> AddStudentAsync([FromBody] AddStudentRequest request,
+            CancellationToken cancellationToken = default)
         {
             if (request == null)
             {
@@ -44,7 +47,8 @@ namespace project.Controllers
         }
 
         [HttpPost("UpdateStudent/{id}")]
-        public async Task<IActionResult> UpdateStudentAsync(int id, [FromBody] AddStudentRequest request, CancellationToken cancellationToken = default)
+        public async Task<IActionResult> UpdateStudentAsync(int id, [FromBody] AddStudentRequest request,
+            CancellationToken cancellationToken = default)
         {
             if (request == null)
             {
@@ -82,6 +86,54 @@ namespace project.Controllers
             }
 
             return Ok(student);
+        }
+
+        [HttpPost("GetObjectsByGroup")]
+        public async Task<IActionResult> GetStudentsByGroupAsync(ObjectsByGroupFilter filter,
+            CancellationToken cancellationToken = default)
+        {
+            var students = await _studentService.GetObjectsByGroupAsync(filter, cancellationToken);
+            return Ok(students);
+        }
+
+        [HttpPost("AddCurriculum")]
+        public async Task<IActionResult> AddCurriculumAsync(AddCurriculumRequest request,
+            CancellationToken cancellationToken = default)
+        {
+            var curriculum = await _studentService.AddCurriculumAsync(request, cancellationToken);
+            return Ok(curriculum);
+            //return CreatedAtAction(nameof(AddCurriculumAsync), new { id = curriculum.CurriculumId }, curriculum);
+        }
+        
+        [HttpPost("UpdateCurriculum/{id}")]
+        public async Task<IActionResult> UpdateCurriculum([FromRoute] int id, [FromBody] AddCurriculumRequest request, CancellationToken cancellationToken)
+        {
+            if (request == null)
+            {
+                return BadRequest("Invalid request data.");
+            }
+
+            try
+            {
+                var newCurriculum = await _studentService.UpdateCurriculumAsync(id, request, cancellationToken);
+                return Ok(newCurriculum);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        
+        [HttpPost("DeleteCurriculum/{id}")]
+        public async Task<IActionResult> DeleteCurriculum([FromRoute] int id, CancellationToken cancellationToken)
+        {
+            var result = await _studentService.DeleteCurriculumAsync(id, cancellationToken);
+            if (!result)
+            {
+                return NotFound("Curriculum not found.");
+            }
+
+            return Ok(result);
         }
     }
 }

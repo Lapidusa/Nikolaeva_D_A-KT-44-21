@@ -9,12 +9,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d0bba0c-a96b-4514-a973-f29241b24781" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/СurriculumController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Configuration/СurriculumConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filters/StudentFilters/AddCurriculumRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filters/StudentFilters/ObjectsByGroupFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Сurriculum.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/StudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/StudentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Configuration/GroupConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Configuration/GroupConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Configuration/ObjectConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Configuration/ObjectConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/StudentDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/StudentDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/StudentsInterfaces/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/StudentsInterfaces/IStudentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240926130705_object.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240926130705_object.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/StudentDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Group.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Group.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Objects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -23,12 +41,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lapidusa&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -54,7 +75,41 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lapidusa/Nikolaeva_D_A-KT-44-21.git&quot;,
+    &quot;accountId&quot;: &quot;ffee6c2b-fdce-40c7-a1f0-c17e5d81403f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06c046bf69aa4f768c77e50706275b1b26a820/ae/ee8ae81a/DbSet`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/85/a62566b1/AsyncTaskMethodBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a87841e061224146a9492e068b7071f21de910/0b/b436e232/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/294078ecfce6fdb942ecfee089f09717de7a6fcfe5efd9fdb6f4f93c0fb4813/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2e49d132ea68ff47071c64476ae29138fa965dc555ef7c3f4991586431de241/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/358587b5faadb40b9e6aa73539fb8834dfc5ebbcd431abba488948be7df3/Type.Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3791ade316feeb2be344648da3c7d31719ff492f7733b643bf8c24d7629883/RuntimeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/394cf11a64687141fd58fb926ff8b3d5a299eba3bbadaf2de9b93928d523d4/Type.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7fcc41fe48c43f71d1476329de953fce8565fcc5dbf3c8c6fdb81c216b19c4/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8d42d5f1712377031e2892d1c29db5c23b8c7d49b9dc632fbf463bd930a8/RuntimeHelpers.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/955ec549fe664629353c3b5424b6ad6c7dfcec4ab59bae709ab962c228cf45/RuntimeType.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96a4cc66aa48dda8a9d8be8febec4a769fc143f7a86dd53ecdebfb9c3177d/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a6b1457cbcf17db31a383ba49ef9bcc786cf3ef77146d997eee499b27a46d/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9eda537f15ea23cdfae523c19e87eb303a3ded88937ae7e55919387a43f70/ExecutionContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a5c512d98c362e5ae97d932048c2d19b2c32bd672646f5b59d68aa6fd91dd/TypeUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aeae22b1c972504e8888d248c7af57e956db03461ad886a20159e93a0d118f3/ParameterExpression.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b86cdfe19de105ff2eab7d5d4c613fd91b9adfe4f95bd82e2d6db593e6d3ca3/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c796e07724a4f9be8a72c1d8bf9d1ff583a3cb938fba3d1a63c9de159a107980/RuntimeHandles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c9ded36fb2cd5034614295529163d468da16adf72d43d77816c3161404c/CreatedAtActionResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74415f822229fdaef456de4b3dd46b3d66551ff6c1bbccb7ce727a469aa2/FormatterCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7dbd6fe331ff9a3c4b24dd470ec1f19a71b7c5acf258b81ae7f761cd2b319b/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f43916548475f9e9d76f1fa98dff93c8bd39d6a926874ffee93543c2f6d671/ObjectResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb367341658aaedd7de424d4c9189db33c4387e268dcc4011918569442ab12/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -123,6 +178,9 @@
       <updated>1730374579563</updated>
       <workItem from="1730374580631" duration="3288000" />
       <workItem from="1731597337418" duration="128000" />
+      <workItem from="1732189800961" duration="2866000" />
+      <workItem from="1732192817073" duration="15709000" />
+      <workItem from="1732275356603" duration="10357000" />
     </task>
     <task id="LOCAL-00001" summary="add other service">
       <option name="closed" value="true" />
