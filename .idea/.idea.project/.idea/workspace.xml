@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.Designer.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Models/Сurriculum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.Tests/StudentIntegrationTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" afterDir="false" />
@@ -35,6 +36,8 @@
       <change beforePath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.sln" beforeDir="false" afterPath="$PROJECT_DIR$/project.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +85,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06c046bf69aa4f768c77e50706275b1b26a820/ae/ee8ae81a/DbSet`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/85/a62566b1/AsyncTaskMethodBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a87841e061224146a9492e068b7071f21de910/0b/b436e232/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,6 +106,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b86cdfe19de105ff2eab7d5d4c613fd91b9adfe4f95bd82e2d6db593e6d3ca3/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c796e07724a4f9be8a72c1d8bf9d1ff583a3cb938fba3d1a63c9de159a107980/RuntimeHandles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c9ded36fb2cd5034614295529163d468da16adf72d43d77816c3161404c/CreatedAtActionResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e5b3bf527769cb3295444e29d617bf2ebe5666bbe8e9c881a31444ba66846cfa/BooleanAsserts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74415f822229fdaef456de4b3dd46b3d66551ff6c1bbccb7ce727a469aa2/FormatterCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7dbd6fe331ff9a3c4b24dd470ec1f19a71b7c5acf258b81ae7f761cd2b319b/Type.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f43916548475f9e9d76f1fa98dff93c8bd39d6a926874ffee93543c2f6d671/ObjectResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,24 +124,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.project: IIS Express.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.project: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;48b3aedb-e209-4bb3-9689-ec93507b89b7.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.project: IIS Express">
     <configuration name="project: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/project.csproj" />
@@ -180,7 +187,7 @@
       <workItem from="1731597337418" duration="128000" />
       <workItem from="1732189800961" duration="2866000" />
       <workItem from="1732192817073" duration="15709000" />
-      <workItem from="1732275356603" duration="10357000" />
+      <workItem from="1732275356603" duration="13434000" />
     </task>
     <task id="LOCAL-00001" summary="add other service">
       <option name="closed" value="true" />
@@ -202,5 +209,12 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add other service" />
     <option name="LAST_COMMIT_MESSAGE" value="add other service" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/project.Tests/GroupTests.cs" line="14">
+        <watch expression="result" language="C#" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>

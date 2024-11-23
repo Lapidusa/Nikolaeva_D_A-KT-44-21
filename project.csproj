@@ -16,6 +16,29 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.12" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="project.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="project.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="project.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="project.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="project.Tests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="project.Tests\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="project.Tests\obj\project.Tests.csproj.nuget.dgspec.json" />
   </ItemGroup>
 
 </Project>
