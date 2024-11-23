@@ -8,7 +8,7 @@ namespace project.Models
 
         public bool isValidGroupName()
         {
-            return Regex.IsMatch(GroupName, @"^\D+-\d+-\d{2}$");
+            return Regex.IsMatch(GroupName, @"^[\p{Lu}]{2,5}-\d{2}-\d{2}$");
         }
     }
 }

@@ -8,36 +8,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0bba0c-a96b-4514-a973-f29241b24781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/СurriculumController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Configuration/СurriculumConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filters/StudentFilters/AddCurriculumRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filters/StudentFilters/ObjectsByGroupFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20241122123725_1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Сurriculum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.Tests/StudentIntegrationTests.cs" afterDir="false" />
+    <list default="true" id="1d0bba0c-a96b-4514-a973-f29241b24781" name="Changes" comment="2 tests repeat">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/project/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/StudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/StudentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Configuration/GroupConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Configuration/GroupConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Configuration/ObjectConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Configuration/ObjectConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/StudentDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/StudentDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces/StudentsInterfaces/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/StudentsInterfaces/IStudentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240926130705_object.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240926130705_object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/StudentDbContextModelSnapshot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Group.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Group.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Objects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceExtensions/ServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/project.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.sln" beforeDir="false" afterPath="$PROJECT_DIR$/project.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.Tests/GroupTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/project.Tests/GroupTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.Tests/StudentIntegrationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/project.Tests/StudentIntegrationTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +68,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06c046bf69aa4f768c77e50706275b1b26a820/ae/ee8ae81a/DbSet`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/85/a62566b1/AsyncTaskMethodBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a87841e061224146a9492e068b7071f21de910/0b/b436e232/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -97,6 +78,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/394cf11a64687141fd58fb926ff8b3d5a299eba3bbadaf2de9b93928d523d4/Type.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7fcc41fe48c43f71d1476329de953fce8565fcc5dbf3c8c6fdb81c216b19c4/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8d42d5f1712377031e2892d1c29db5c23b8c7d49b9dc632fbf463bd930a8/RuntimeHelpers.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/91cd9ea146b0b01ac23f87423d971d6bcb1120836a59d9b6bdb9873af8e/ArgumentException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/955ec549fe664629353c3b5424b6ad6c7dfcec4ab59bae709ab962c228cf45/RuntimeType.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96a4cc66aa48dda8a9d8be8febec4a769fc143f7a86dd53ecdebfb9c3177d/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a6b1457cbcf17db31a383ba49ef9bcc786cf3ef77146d997eee499b27a46d/Object.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +91,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e5b3bf527769cb3295444e29d617bf2ebe5666bbe8e9c881a31444ba66846cfa/BooleanAsserts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74415f822229fdaef456de4b3dd46b3d66551ff6c1bbccb7ce727a469aa2/FormatterCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7dbd6fe331ff9a3c4b24dd470ec1f19a71b7c5acf258b81ae7f761cd2b319b/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e9881a453a581134c1a18331ac1f8f1201a5382a685bf2a40777fa22619/DbContextOptions`.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f43916548475f9e9d76f1fa98dff93c8bd39d6a926874ffee93543c2f6d671/ObjectResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb367341658aaedd7de424d4c9189db33c4387e268dcc4011918569442ab12/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -124,25 +107,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.project: IIS Express.executor&quot;: &quot;Run&quot;,
-    &quot;48b3aedb-e209-4bb3-9689-ec93507b89b7.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.project: IIS Express.executor": "Run",
+    "0b644273-120e-4fdf-9612-60e07915a803.executor": "Debug",
+    "48b3aedb-e209-4bb3-9689-ec93507b89b7.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.project: IIS Express">
     <configuration name="project: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/project.csproj" />
@@ -188,6 +172,7 @@
       <workItem from="1732189800961" duration="2866000" />
       <workItem from="1732192817073" duration="15709000" />
       <workItem from="1732275356603" duration="13434000" />
+      <workItem from="1732357860131" duration="10738000" />
     </task>
     <task id="LOCAL-00001" summary="add other service">
       <option name="closed" value="true" />
@@ -197,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730374976416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 tests">
+      <option name="closed" value="true" />
+      <created>1732358185651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732358185651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2 tests repeat">
+      <option name="closed" value="true" />
+      <created>1732358211200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732358211200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,12 +206,35 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add other service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add other service" />
+    <MESSAGE value="2 tests" />
+    <MESSAGE value="2 tests repeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 tests repeat" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.ArgumentException" isInternal="false" displayValue="ArgumentException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <inline-watch fileUrl="file://$PROJECT_DIR$/project.Tests/GroupTests.cs" line="14">
         <watch expression="result" language="C#" />

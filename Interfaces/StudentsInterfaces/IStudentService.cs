@@ -39,9 +39,9 @@ namespace project.Interfaces.StudentsInterfaces
         {
             return _dbContext.Set<Student>()
                 .Where(s =>
-                    (s.FirstName == null || s.FirstName.Contains(filter.FirstName)) &&
-                    (s.LastName == null || s.LastName.Contains(filter.LastName)) &&
-                    (s.MiddleName == null || s.MiddleName.Contains(filter.MiddleName)))
+                    (string.IsNullOrEmpty(filter.FirstName) || (s.FirstName != null && s.FirstName.Contains(filter.FirstName))) &&
+                    (string.IsNullOrEmpty(filter.LastName) || (s.LastName != null && s.LastName.Contains(filter.LastName))) &&
+                    (string.IsNullOrEmpty(filter.MiddleName) || (s.MiddleName != null && s.MiddleName.Contains(filter.MiddleName))))
                 .ToArrayAsync(cancellationToken);
         }
 

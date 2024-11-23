@@ -9,7 +9,7 @@ namespace project.Tests
         {
             var testGroup = new Group
             {
-                GroupName = "КТ-44-21"
+                GroupName = "ЛВЛВВ-41-21"
             };
         
             var result = testGroup.isValidGroupName();
